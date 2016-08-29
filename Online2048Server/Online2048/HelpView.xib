@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view alpha="0.89999997615814209" contentMode="scaleToFill" id="IDb-kB-pss" customClass="HelpView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B3q-il-wj1">
+                    <rect key="frame" x="201.5" y="70" width="197" height="229"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <accessibility key="accessibilityConfiguration">
+                        <accessibilityTraits key="traits" notEnabled="YES"/>
+                    </accessibility>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="229" id="80F-Fh-2ro"/>
+                        <constraint firstAttribute="width" constant="197" id="pfd-3s-YJL"/>
+                    </constraints>
+                    <string key="text">2048一个停不下来的小游戏                                   滑动屏幕使方块聚合一起                                      相同方块融合相加                                                                             2+2=4                                                                                       4+4=8                                                                 8+8=16                                                                                      ......                                                              512+512=1024                                          1024+1024=2048                                                         ......                                                                    快来开启你的2048之旅吧          </string>
+                    <color key="textColor" red="0.57903650600000001" green="0.66666666669999997" blue="0.38840494009999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tEN-Q5-gro">
+                    <rect key="frame" x="220" y="319" width="160" height="70"/>
+                    <color key="backgroundColor" red="1" green="0.41647087430000002" blue="0.3754524621" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="160" id="2dr-hC-DHh"/>
+                        <constraint firstAttribute="height" constant="70" id="wNm-IO-Du8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                    <state key="normal" title="回到游戏">
+                        <color key="titleColor" red="0.71245362280000002" green="0.96862745100000003" blue="0.78662493030000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="backGame:" destination="IDb-kB-pss" eventType="touchUpInside" id="6NA-T6-Eby"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="tEN-Q5-gro" firstAttribute="centerX" secondItem="IDb-kB-pss" secondAttribute="centerX" id="8CG-1S-XsV"/>
+                <constraint firstItem="tEN-Q5-gro" firstAttribute="top" secondItem="B3q-il-wj1" secondAttribute="bottom" constant="20" id="C5z-y1-sPj"/>
+                <constraint firstItem="B3q-il-wj1" firstAttribute="centerX" secondItem="IDb-kB-pss" secondAttribute="centerX" id="fcn-5B-Egm"/>
+                <constraint firstItem="B3q-il-wj1" firstAttribute="top" secondItem="IDb-kB-pss" secondAttribute="top" constant="70" id="pkI-N1-TY2"/>
+            </constraints>
+            <point key="canvasLocation" x="1" y="324"/>
+        </view>
+    </objects>
+</document>

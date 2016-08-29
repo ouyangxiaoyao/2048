@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E0208101CD4DE3F00BDDBCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E02080F1CD4DE3F00BDDBCD /* main.m */; };
+		6E0208131CD4DE3F00BDDBCD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0208121CD4DE3F00BDDBCD /* AppDelegate.m */; };
+		6E0208191CD4DE3F00BDDBCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E0208171CD4DE3F00BDDBCD /* Main.storyboard */; };
+		6E02081B1CD4DE3F00BDDBCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E02081A1CD4DE3F00BDDBCD /* Assets.xcassets */; };
+		6E02081E1CD4DE3F00BDDBCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E02081C1CD4DE3F00BDDBCD /* LaunchScreen.storyboard */; };
+		6E0208291CD4DE3F00BDDBCD /* Online2048Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0208281CD4DE3F00BDDBCD /* Online2048Tests.m */; };
+		6E0208341CD4DE3F00BDDBCD /* Online2048UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0208331CD4DE3F00BDDBCD /* Online2048UITests.m */; };
+		6E02084D1CD4ECD300BDDBCD /* SingleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E02084B1CD4ECD300BDDBCD /* SingleViewController.m */; };
+		6E02084E1CD4ECD300BDDBCD /* SingleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E02084C1CD4ECD300BDDBCD /* SingleViewController.xib */; };
+		6E0208511CD4EE1D00BDDBCD /* LuckyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0208501CD4EE1D00BDDBCD /* LuckyLabel.m */; };
+		6E0208541CD4EE6B00BDDBCD /* SetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0208531CD4EE6B00BDDBCD /* SetView.m */; };
+		6E0208571CD4EEBA00BDDBCD /* HelpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0208561CD4EEBA00BDDBCD /* HelpView.m */; };
+		6E0208591CD4EEF200BDDBCD /* SetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E0208581CD4EEF200BDDBCD /* SetView.xib */; };
+		6E02085B1CD4F25100BDDBCD /* HelpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E02085A1CD4F25100BDDBCD /* HelpView.xib */; };
+		6E9F4C601CDB4C4400C4751E /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F4C5E1CDB4C4400C4751E /* StartViewController.m */; };
+		6E9F4C611CDB4C4400C4751E /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E9F4C5F1CDB4C4400C4751E /* StartViewController.xib */; };
+		6E9F4C651CDB529700C4751E /* OnlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F4C631CDB529700C4751E /* OnlineViewController.m */; };
+		6E9F4C661CDB529700C4751E /* OnlineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E9F4C641CDB529700C4751E /* OnlineViewController.xib */; };
+		6E9F4C691CDB6D5300C4751E /* XMGAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F4C681CDB6D5300C4751E /* XMGAudioTool.m */; };
+		6E9F4C6B1CDB777F00C4751E /* This Kiss.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6E9F4C6A1CDB777F00C4751E /* This Kiss.mp3 */; };
+		80D664DC6388B4CB1216503E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B41ADDEFCD22663ADD735C1 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E0208251CD4DE3F00BDDBCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E0208031CD4DE3F00BDDBCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E02080A1CD4DE3F00BDDBCD;
+			remoteInfo = Online2048;
+		};
+		6E0208301CD4DE3F00BDDBCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E0208031CD4DE3F00BDDBCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E02080A1CD4DE3F00BDDBCD;
+			remoteInfo = Online2048;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6991B13FEEB9BD3FF7EB0B45 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		6E02080B1CD4DE3F00BDDBCD /* Online2048.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Online2048.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E02080F1CD4DE3F00BDDBCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E0208111CD4DE3F00BDDBCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E0208121CD4DE3F00BDDBCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E0208181CD4DE3F00BDDBCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E02081A1CD4DE3F00BDDBCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E02081D1CD4DE3F00BDDBCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E02081F1CD4DE3F00BDDBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E0208241CD4DE3F00BDDBCD /* Online2048Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Online2048Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E0208281CD4DE3F00BDDBCD /* Online2048Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Online2048Tests.m; sourceTree = "<group>"; };
+		6E02082A1CD4DE3F00BDDBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E02082F1CD4DE3F00BDDBCD /* Online2048UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Online2048UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E0208331CD4DE3F00BDDBCD /* Online2048UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Online2048UITests.m; sourceTree = "<group>"; };
+		6E0208351CD4DE3F00BDDBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E02084A1CD4ECD300BDDBCD /* SingleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleViewController.h; sourceTree = "<group>"; };
+		6E02084B1CD4ECD300BDDBCD /* SingleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleViewController.m; sourceTree = "<group>"; };
+		6E02084C1CD4ECD300BDDBCD /* SingleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SingleViewController.xib; sourceTree = "<group>"; };
+		6E02084F1CD4EE1D00BDDBCD /* LuckyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuckyLabel.h; sourceTree = "<group>"; };
+		6E0208501CD4EE1D00BDDBCD /* LuckyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuckyLabel.m; sourceTree = "<group>"; };
+		6E0208521CD4EE6B00BDDBCD /* SetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetView.h; sourceTree = "<group>"; };
+		6E0208531CD4EE6B00BDDBCD /* SetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetView.m; sourceTree = "<group>"; };
+		6E0208551CD4EEBA00BDDBCD /* HelpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpView.h; sourceTree = "<group>"; };
+		6E0208561CD4EEBA00BDDBCD /* HelpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpView.m; sourceTree = "<group>"; };
+		6E0208581CD4EEF200BDDBCD /* SetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetView.xib; sourceTree = "<group>"; };
+		6E02085A1CD4F25100BDDBCD /* HelpView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpView.xib; sourceTree = "<group>"; };
+		6E02085C1CD4FC7A00BDDBCD /* Online2048.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Online2048.pch; sourceTree = "<group>"; };
+		6E9F4C5D1CDB4C4400C4751E /* StartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		6E9F4C5E1CDB4C4400C4751E /* StartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		6E9F4C5F1CDB4C4400C4751E /* StartViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
+		6E9F4C621CDB529700C4751E /* OnlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnlineViewController.h; sourceTree = "<group>"; };
+		6E9F4C631CDB529700C4751E /* OnlineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnlineViewController.m; sourceTree = "<group>"; };
+		6E9F4C641CDB529700C4751E /* OnlineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OnlineViewController.xib; sourceTree = "<group>"; };
+		6E9F4C671CDB6D5300C4751E /* XMGAudioTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGAudioTool.h; sourceTree = "<group>"; };
+		6E9F4C681CDB6D5300C4751E /* XMGAudioTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGAudioTool.m; sourceTree = "<group>"; };
+		6E9F4C6A1CDB777F00C4751E /* This Kiss.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "This Kiss.mp3"; sourceTree = "<group>"; };
+		8B41ADDEFCD22663ADD735C1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		97D681047A13C1C7D7B0C14D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E0208081CD4DE3F00BDDBCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80D664DC6388B4CB1216503E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E0208211CD4DE3F00BDDBCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E02082C1CD4DE3F00BDDBCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E0208021CD4DE3F00BDDBCD = {
+			isa = PBXGroup;
+			children = (
+				6E02080D1CD4DE3F00BDDBCD /* Online2048 */,
+				6E0208271CD4DE3F00BDDBCD /* Online2048Tests */,
+				6E0208321CD4DE3F00BDDBCD /* Online2048UITests */,
+				6E02080C1CD4DE3F00BDDBCD /* Products */,
+				C784F7BA4FDC4CEEE860D6D8 /* Pods */,
+				9578757EE630F59A9CBCAA7F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E02080C1CD4DE3F00BDDBCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E02080B1CD4DE3F00BDDBCD /* Online2048.app */,
+				6E0208241CD4DE3F00BDDBCD /* Online2048Tests.xctest */,
+				6E02082F1CD4DE3F00BDDBCD /* Online2048UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E02080D1CD4DE3F00BDDBCD /* Online2048 */ = {
+			isa = PBXGroup;
+			children = (
+				6E0208111CD4DE3F00BDDBCD /* AppDelegate.h */,
+				6E0208121CD4DE3F00BDDBCD /* AppDelegate.m */,
+				6E0208411CD4DE5400BDDBCD /* classes */,
+				6E02085C1CD4FC7A00BDDBCD /* Online2048.pch */,
+				6E0208171CD4DE3F00BDDBCD /* Main.storyboard */,
+				6E02081A1CD4DE3F00BDDBCD /* Assets.xcassets */,
+				6E02081C1CD4DE3F00BDDBCD /* LaunchScreen.storyboard */,
+				6E02081F1CD4DE3F00BDDBCD /* Info.plist */,
+				6E02080E1CD4DE3F00BDDBCD /* Supporting Files */,
+			);
+			path = Online2048;
+			sourceTree = "<group>";
+		};
+		6E02080E1CD4DE3F00BDDBCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E9F4C6A1CDB777F00C4751E /* This Kiss.mp3 */,
+				6E02080F1CD4DE3F00BDDBCD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E0208271CD4DE3F00BDDBCD /* Online2048Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6E0208281CD4DE3F00BDDBCD /* Online2048Tests.m */,
+				6E02082A1CD4DE3F00BDDBCD /* Info.plist */,
+			);
+			path = Online2048Tests;
+			sourceTree = "<group>";
+		};
+		6E0208321CD4DE3F00BDDBCD /* Online2048UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E0208331CD4DE3F00BDDBCD /* Online2048UITests.m */,
+				6E0208351CD4DE3F00BDDBCD /* Info.plist */,
+			);
+			path = Online2048UITests;
+			sourceTree = "<group>";
+		};
+		6E0208411CD4DE5400BDDBCD /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				6E0208441CD4DE9200BDDBCD /* Model */,
+				6E0208431CD4DE8300BDDBCD /* Views */,
+				6E0208421CD4DE6C00BDDBCD /* Controllers */,
+			);
+			name = classes;
+			sourceTree = "<group>";
+		};
+		6E0208421CD4DE6C00BDDBCD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6E9F4C5D1CDB4C4400C4751E /* StartViewController.h */,
+				6E9F4C5E1CDB4C4400C4751E /* StartViewController.m */,
+				6E9F4C5F1CDB4C4400C4751E /* StartViewController.xib */,
+				6E02084A1CD4ECD300BDDBCD /* SingleViewController.h */,
+				6E02084B1CD4ECD300BDDBCD /* SingleViewController.m */,
+				6E02084C1CD4ECD300BDDBCD /* SingleViewController.xib */,
+				6E9F4C621CDB529700C4751E /* OnlineViewController.h */,
+				6E9F4C631CDB529700C4751E /* OnlineViewController.m */,
+				6E9F4C641CDB529700C4751E /* OnlineViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6E0208431CD4DE8300BDDBCD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6E02084F1CD4EE1D00BDDBCD /* LuckyLabel.h */,
+				6E0208501CD4EE1D00BDDBCD /* LuckyLabel.m */,
+				6E0208521CD4EE6B00BDDBCD /* SetView.h */,
+				6E0208531CD4EE6B00BDDBCD /* SetView.m */,
+				6E0208581CD4EEF200BDDBCD /* SetView.xib */,
+				6E0208551CD4EEBA00BDDBCD /* HelpView.h */,
+				6E0208561CD4EEBA00BDDBCD /* HelpView.m */,
+				6E02085A1CD4F25100BDDBCD /* HelpView.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		6E0208441CD4DE9200BDDBCD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E9F4C671CDB6D5300C4751E /* XMGAudioTool.h */,
+				6E9F4C681CDB6D5300C4751E /* XMGAudioTool.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9578757EE630F59A9CBCAA7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B41ADDEFCD22663ADD735C1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C784F7BA4FDC4CEEE860D6D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97D681047A13C1C7D7B0C14D /* Pods.debug.xcconfig */,
+				6991B13FEEB9BD3FF7EB0B45 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E02080A1CD4DE3F00BDDBCD /* Online2048 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E0208381CD4DE3F00BDDBCD /* Build configuration list for PBXNativeTarget "Online2048" */;
+			buildPhases = (
+				0CB7842E5F327BF8BA1A659D /* Check Pods Manifest.lock */,
+				6E0208071CD4DE3F00BDDBCD /* Sources */,
+				6E0208081CD4DE3F00BDDBCD /* Frameworks */,
+				6E0208091CD4DE3F00BDDBCD /* Resources */,
+				0166441D759142B2940C76E1 /* Embed Pods Frameworks */,
+				4627B82769F9ACDD4D52998F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Online2048;
+			productName = Online2048;
+			productReference = 6E02080B1CD4DE3F00BDDBCD /* Online2048.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E0208231CD4DE3F00BDDBCD /* Online2048Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E02083B1CD4DE3F00BDDBCD /* Build configuration list for PBXNativeTarget "Online2048Tests" */;
+			buildPhases = (
+				6E0208201CD4DE3F00BDDBCD /* Sources */,
+				6E0208211CD4DE3F00BDDBCD /* Frameworks */,
+				6E0208221CD4DE3F00BDDBCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E0208261CD4DE3F00BDDBCD /* PBXTargetDependency */,
+			);
+			name = Online2048Tests;
+			productName = Online2048Tests;
+			productReference = 6E0208241CD4DE3F00BDDBCD /* Online2048Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E02082E1CD4DE3F00BDDBCD /* Online2048UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E02083E1CD4DE3F00BDDBCD /* Build configuration list for PBXNativeTarget "Online2048UITests" */;
+			buildPhases = (
+				6E02082B1CD4DE3F00BDDBCD /* Sources */,
+				6E02082C1CD4DE3F00BDDBCD /* Frameworks */,
+				6E02082D1CD4DE3F00BDDBCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E0208311CD4DE3F00BDDBCD /* PBXTargetDependency */,
+			);
+			name = Online2048UITests;
+			productName = Online2048UITests;
+			productReference = 6E02082F1CD4DE3F00BDDBCD /* Online2048UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E0208031CD4DE3F00BDDBCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "董梦瑶";
+				TargetAttributes = {
+					6E02080A1CD4DE3F00BDDBCD = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = W272WDFC9W;
+					};
+					6E0208231CD4DE3F00BDDBCD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6E02080A1CD4DE3F00BDDBCD;
+					};
+					6E02082E1CD4DE3F00BDDBCD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 6E02080A1CD4DE3F00BDDBCD;
+					};
+				};
+			};
+			buildConfigurationList = 6E0208061CD4DE3F00BDDBCD /* Build configuration list for PBXProject "Online2048" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E0208021CD4DE3F00BDDBCD;
+			productRefGroup = 6E02080C1CD4DE3F00BDDBCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E02080A1CD4DE3F00BDDBCD /* Online2048 */,
+				6E0208231CD4DE3F00BDDBCD /* Online2048Tests */,
+				6E02082E1CD4DE3F00BDDBCD /* Online2048UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E0208091CD4DE3F00BDDBCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E02081E1CD4DE3F00BDDBCD /* LaunchScreen.storyboard in Resources */,
+				6E9F4C611CDB4C4400C4751E /* StartViewController.xib in Resources */,
+				6E02081B1CD4DE3F00BDDBCD /* Assets.xcassets in Resources */,
+				6E0208591CD4EEF200BDDBCD /* SetView.xib in Resources */,
+				6E02084E1CD4ECD300BDDBCD /* SingleViewController.xib in Resources */,
+				6E9F4C661CDB529700C4751E /* OnlineViewController.xib in Resources */,
+				6E9F4C6B1CDB777F00C4751E /* This Kiss.mp3 in Resources */,
+				6E0208191CD4DE3F00BDDBCD /* Main.storyboard in Resources */,
+				6E02085B1CD4F25100BDDBCD /* HelpView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E0208221CD4DE3F00BDDBCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E02082D1CD4DE3F00BDDBCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0166441D759142B2940C76E1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0CB7842E5F327BF8BA1A659D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4627B82769F9ACDD4D52998F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E0208071CD4DE3F00BDDBCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0208131CD4DE3F00BDDBCD /* AppDelegate.m in Sources */,
+				6E02084D1CD4ECD300BDDBCD /* SingleViewController.m in Sources */,
+				6E0208511CD4EE1D00BDDBCD /* LuckyLabel.m in Sources */,
+				6E0208571CD4EEBA00BDDBCD /* HelpView.m in Sources */,
+				6E9F4C601CDB4C4400C4751E /* StartViewController.m in Sources */,
+				6E0208101CD4DE3F00BDDBCD /* main.m in Sources */,
+				6E9F4C691CDB6D5300C4751E /* XMGAudioTool.m in Sources */,
+				6E9F4C651CDB529700C4751E /* OnlineViewController.m in Sources */,
+				6E0208541CD4EE6B00BDDBCD /* SetView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E0208201CD4DE3F00BDDBCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0208291CD4DE3F00BDDBCD /* Online2048Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E02082B1CD4DE3F00BDDBCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E0208341CD4DE3F00BDDBCD /* Online2048UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E0208261CD4DE3F00BDDBCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E02080A1CD4DE3F00BDDBCD /* Online2048 */;
+			targetProxy = 6E0208251CD4DE3F00BDDBCD /* PBXContainerItemProxy */;
+		};
+		6E0208311CD4DE3F00BDDBCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E02080A1CD4DE3F00BDDBCD /* Online2048 */;
+			targetProxy = 6E0208301CD4DE3F00BDDBCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E0208171CD4DE3F00BDDBCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E0208181CD4DE3F00BDDBCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E02081C1CD4DE3F00BDDBCD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E02081D1CD4DE3F00BDDBCD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E0208361CD4DE3F00BDDBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Online2048/Online2048.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E0208371CD4DE3F00BDDBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Online2048/Online2048.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E0208391CD4DE3F00BDDBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97D681047A13C1C7D7B0C14D /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Online2048/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DMY.Online2048;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6E02083A1CD4DE3F00BDDBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6991B13FEEB9BD3FF7EB0B45 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Online2048/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DMY.Online2048;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6E02083C1CD4DE3F00BDDBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Online2048Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DMY.Online2048Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Online2048.app/Online2048";
+			};
+			name = Debug;
+		};
+		6E02083D1CD4DE3F00BDDBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Online2048Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DMY.Online2048Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Online2048.app/Online2048";
+			};
+			name = Release;
+		};
+		6E02083F1CD4DE3F00BDDBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Online2048UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DMY.Online2048UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Online2048;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6E0208401CD4DE3F00BDDBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Online2048UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DMY.Online2048UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Online2048;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E0208061CD4DE3F00BDDBCD /* Build configuration list for PBXProject "Online2048" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E0208361CD4DE3F00BDDBCD /* Debug */,
+				6E0208371CD4DE3F00BDDBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E0208381CD4DE3F00BDDBCD /* Build configuration list for PBXNativeTarget "Online2048" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E0208391CD4DE3F00BDDBCD /* Debug */,
+				6E02083A1CD4DE3F00BDDBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E02083B1CD4DE3F00BDDBCD /* Build configuration list for PBXNativeTarget "Online2048Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E02083C1CD4DE3F00BDDBCD /* Debug */,
+				6E02083D1CD4DE3F00BDDBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E02083E1CD4DE3F00BDDBCD /* Build configuration list for PBXNativeTarget "Online2048UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E02083F1CD4DE3F00BDDBCD /* Debug */,
+				6E0208401CD4DE3F00BDDBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E0208031CD4DE3F00BDDBCD /* Project object */;
+}
